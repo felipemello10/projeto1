@@ -41,7 +41,7 @@ let exemplo6={};
 console.log(typeof exemplo6);
 
 let exemplo7=["Java" , "Python", "C#"];
-console.lof(typeof exemplo7);
+console.log(typeof exemplo7);
 
 //variavel indefinida
 let exemplo8;
