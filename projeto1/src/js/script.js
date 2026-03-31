@@ -81,10 +81,74 @@
 // const precoFinal = p - v;
 // console.log("O preço final com desconto é:", precoFinal)
 
-const login = 1;
-const token = 1234;
-const transacaoAutorizada = login === 1 && token >=10;
-console.log("Transação Autorizada com sucesso", transacaoAutorizada);
+// const login = 1;
+// const token = 1234;
+// const transacaoAutorizada = login === 1 && token >=10;
+// console.log("Transação Autorizada com sucesso", transacaoAutorizada);
 
 
-//
+// // ESTRUTURA CONDICIONAL
+
+// if(false){
+//     console.log("é Verdadeiro")
+// }
+
+//if/else
+
+// let nome="Fiap";
+
+// if(nome=="Fiap"){
+//     console.log("nome verdadeiro")}else{
+//         console.log("nome errado")
+//     }
+
+//if encadeado ou alinhado
+
+let idade = 25;
+
+if(idade <= 13){
+    console.log("é uma criança")
+}else if(idade> 13 && idade <=18){
+    console.log("é um adolescente")
+}else if(idade >= 60){
+    console.log("É um idoso")
+}else{
+    console.log("é um adulto")
+}
+
+//switch case
+
+let times="corinthians";
+switch(times){
+    case "santos":
+        console.log("Um time idoso")
+        break;
+    case "sao paulo":
+        console.log("time bambi")
+        break;
+    case "palmeiras":
+        console.log("melhor de SP")
+        break;
+    case "corinthians":
+        console.log("time de bandido")
+        break;
+    default:
+        console.log("é tao ruim quanto a seleção brasileira")
+}
+
+// ternaria
+let salario = 100;
+let resultado = salario ==100 ? "Salario Certo" : "SalarioErrado"
+console.log(resultado)
+
+let usuario= "fiap";
+let userLogado = usuario === "fiap"?"logado com sucesso" : "usuario inválido"
+console.log(userLogado);
+
+function verificarParImpar(numero){
+    return numero % 2 === 0 ? "PAR" : "IMPAR";
+    
+
+}
+
+console.log(verificarParImpar(8439889))
