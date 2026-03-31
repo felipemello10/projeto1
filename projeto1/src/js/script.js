@@ -24,25 +24,54 @@
 //const taxaJuros = 0.85;
 //console.log(taxaJuros);
 
-var exemplo1="Ola dev";
-console.log(exemplo1);
+// newFunction();
+// function newFunction() {
+//     var exemplo1 = "Ola dev";
+//     console.log(exemplo1);
 
-let exemplo2="Ola dev let";
-const exemplo3="ola dev const";
-console.log(exemplo3)
+//     let exemplo2 = "Ola dev let";
+//     const exemplo3 = "ola dev const";
+//     console.log(exemplo3)
+//     let exemplo4 = 20;
+//     console.log(typeof exemplo4);
 
-let exemplo4=20;
-console.log(typeof exemplo4);
+//     let exemplo = true;
+//     console.log(typeof exemplo);
 
-let exemplo=true;
-console.log(typeof exemplo5);
+//     let exemplo6 = {};
+//     console.log(typeof exemplo6);
 
-let exemplo6={};
-console.log(typeof exemplo6);
+//     let exemplo7 = ["Java", "Python", "C#"];
+//     console.log(typeof exemplo7);
 
-let exemplo7=["Java" , "Python", "C#"];
-console.log(typeof exemplo7);
+//     //variavel indefinida
+//     let exemplo8;
+//     console.log(typeof exemplo8);
 
-//variavel indefinida
-let exemplo8;
-console.log(typeof exemplo8)
+//     //variavel vazia
+//     let exemplo9 = null;
+//     console.log(exemplo9);
+// }
+
+const valor1="20";
+const valor2=10;
+
+console.log(valor1 + valor2);
+console.log(valor1 / valor2);
+console.log(valor1 - valor2);
+console.log(valor1 * valor2);
+
+//operadores logicos
+
+console.log(valor1 > valor2)
+console.log(valor1 > 10 && valor2 != 20)
+console.log(valor2 >  5 || valor1 > 50)
+
+//operadores de comparação
+console.log(valor1 < valor2);
+console.log(valor1 >= valor2);
+console.log(valor1 <= valor2);
+console.log(valor1 != valor2);
+console.log(valor1== valor2);
+console.log(valor1 === valor2)
+console.log("o valor é" = valor2);
