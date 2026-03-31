@@ -53,25 +53,38 @@
 //     console.log(exemplo9);
 // }
 
-const valor1="20";
-const valor2=10;
+// const valor1="20";
+// const valor2=10;
 
-console.log(valor1 + valor2);
-console.log(valor1 / valor2);
-console.log(valor1 - valor2);
-console.log(valor1 * valor2);
+// console.log(valor1 + valor2);
+// console.log(valor1 / valor2);
+// console.log(valor1 - valor2);
+// console.log(valor1 * valor2);
 
-//operadores logicos
+// //operadores logicos
 
-console.log(valor1 > valor2)
-console.log(valor1 > 10 && valor2 != 20)
-console.log(valor2 >  5 || valor1 > 50)
+// console.log(valor1 > valor2)
+// console.log(valor1 > 10 && valor2 != 20)
+// console.log(valor2 >  5 || valor1 > 50)
 
-//operadores de comparação
-console.log(valor1 < valor2);
-console.log(valor1 >= valor2);
-console.log(valor1 <= valor2);
-console.log(valor1 != valor2);
-console.log(valor1== valor2);
-console.log(valor1 === valor2)
-console.log("o valor é" = valor2);
+// //operadores de comparação
+// console.log(valor1 < valor2);
+// console.log(valor1 >= valor2);
+// console.log(valor1 <= valor2);
+// console.log(valor1 != valor2);
+// console.log(valor1 == valor2);
+// console.log(valor1 === valor2);
+// console.log("o valor é:", valor2);
+
+// const p =20;
+// const v =10;
+// const precoFinal = p - v;
+// console.log("O preço final com desconto é:", precoFinal)
+
+const login = 1;
+const token = 1234;
+const transacaoAutorizada = login === 1 && token >=10;
+console.log("Transação Autorizada com sucesso", transacaoAutorizada);
+
+
+//
