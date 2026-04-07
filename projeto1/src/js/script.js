@@ -104,51 +104,82 @@
 
 //if encadeado ou alinhado
 
-let idade = 25;
+// let idade = 25;
 
-if(idade <= 13){
-    console.log("é uma criança")
-}else if(idade> 13 && idade <=18){
-    console.log("é um adolescente")
-}else if(idade >= 60){
-    console.log("É um idoso")
-}else{
-    console.log("é um adulto")
-}
+// if(idade <= 13){
+//     console.log("é uma criança")
+// }else if(idade> 13 && idade <=18){
+//     console.log("é um adolescente")
+// }else if(idade >= 60){
+//     console.log("É um idoso")
+// }else{
+//     console.log("é um adulto")
+// }
 
-//switch case
+// //switch case
 
-let times="corinthians";
-switch(times){
-    case "santos":
-        console.log("Um time idoso")
-        break;
-    case "sao paulo":
-        console.log("time bambi")
-        break;
-    case "palmeiras":
-        console.log("melhor de SP")
-        break;
-    case "corinthians":
-        console.log("time de bandido")
-        break;
-    default:
-        console.log("é tao ruim quanto a seleção brasileira")
-}
+// let times="corinthians";
+// switch(times){
+//     case "santos":
+//         console.log("Um time idoso")
+//         break;
+//     case "sao paulo":
+//         console.log("time bambi")
+//         break;
+//     case "palmeiras":
+//         console.log("melhor de SP")
+//         break;
+//     case "corinthians":
+//         console.log("time de bandido")
+//         break;
+//     default:
+//         console.log("é tao ruim quanto a seleção brasileira")
+// }
 
-// ternaria
-let salario = 100;
-let resultado = salario ==100 ? "Salario Certo" : "SalarioErrado"
-console.log(resultado)
+// // ternaria
+// let salario = 100;
+// let resultado = salario ==100 ? "Salario Certo" : "SalarioErrado"
+// console.log(resultado)
 
-let usuario= "fiap";
-let userLogado = usuario === "fiap"?"logado com sucesso" : "usuario inválido"
-console.log(userLogado);
+// let usuario= "fiap";
+// let userLogado = usuario === "fiap"?"logado com sucesso" : "usuario inválido"
+// console.log(userLogado);
 
-function verificarParImpar(numero){
-    return numero % 2 === 0 ? "PAR" : "IMPAR";
+// function verificarParImpar(numero){
+//     return numero % 2 === 0 ? "PAR" : "IMPAR";
     
 
+// }
+
+// console.log(verificarParImpar(84))
+
+// ESTRUTURA DE REPETIÇÃO (LAÇO DE REPETIÇÃO)
+
+//for - estrutura de repetição mais utilizada quando sabemos previamente quantas 
+// vezes o codigo vai ser executado
+
+//declaração, operação, incremento
+for(let i=1; i<=5; i++){
+    console.log("numero:",i);
 }
 
-console.log(verificarParImpar(8439889))
+// for para aray
+
+const linguagens = ["Java","Python","C#", "PHP"];
+
+for(let i=0; i < linguagens.length;i++){
+    console.log("Linguagem",i,":", linguagens [i]);
+}
+
+const tecnologias =["JS", "HTML", "CSS"]
+
+for(const tech of tecnologias){
+    console.log("Estudando",tech)
+}
+
+const carros ={marca:"Volks", modelo: "Fusca", ano:1980};
+
+for(let dados in carros){
+    console.log(dados,":", carros[dados])
+
+}
